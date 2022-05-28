@@ -118,9 +118,10 @@ async function run() {
       core.endGroup()
 
       let commitLog = [];
+
       for (const data of commits.data.commits) {
         const message = data.commit.message.split('\n\n')[0];
-        core.info(`测试：${JSON.stringify(data.author, null, 2)}`);
+        core.startGroup(`测试：${JSON.stringify(data.author, null, 2)}`);
         core.startGroup(`Commit: \x1b[34m${message}\x1b[0m \x1b[34m${data.commit.author.name}(${data.author.login})\x1b[0m ${data.sha}`);
         core.info(`${JSON.stringify(data, null, 2)}`);
         core.endGroup();
