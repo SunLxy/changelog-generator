@@ -82,7 +82,7 @@ async function run() {
       core.info(`ghPages Data: ${ghPagesBranch}, ${ghPagesData.commit.sha}, ${JSON.stringify(ghPagesData, null, 2)}`);
       core.endGroup();
       core.setOutput('gh-pages-hash', ghPagesData.commit.sha);
-      core.setOutput('gh-pages-short-hash', ghPagesData.commit.sha.substring(0,7));
+      core.setOutput('gh-pages-short-hash', ghPagesData.commit.sha.substring(0, 7));
     } catch (error) {
       core.info(`Get Branch: \x1b[33m${error.message}\x1b[0m`);
     }
@@ -120,6 +120,7 @@ async function run() {
       let commitLog = [];
       for (const data of commits.data.commits) {
         const message = data.commit.message.split('\n\n')[0];
+        core.info(`测试：${JSON.stringify(data.author, null, 2)}`);
         core.startGroup(`Commit: \x1b[34m${message}\x1b[0m \x1b[34m${data.commit.author.name}(${data.author.login})\x1b[0m ${data.sha}`);
         core.info(`${JSON.stringify(data, null, 2)}`);
         core.endGroup();
@@ -151,7 +152,7 @@ async function run() {
         }
         tagRef = listTags.data[0] && listTags.data[0].name ? listTags.data[0].name : '';
       }
-  
+
       core.info(`Tag: \x1b[34m${tagRef}\x1b[0m`);
       core.setOutput('tag', tagRef);
 
@@ -189,9 +190,9 @@ function formatStringCommit(commit = '', repoName = '', { regExp, shortHash, ori
   }
   login = login.replace(/\[bot\]/, '-bot');
   if (originalMarkdown) {
-    return `${commit} ${shortHash} ${login ? `@${login}`: ''}`;
+    return `${commit} ${shortHash} ${login ? `@${login}` : ''}`;
   }
-  return `${commit} [\`${shortHash}\`](http://github.com/${repoName}/commit/${hash})${login ? ` @${login}`: ''}`;
+  return `${commit} [\`${shortHash}\`](http://github.com/${repoName}/commit/${hash})${login ? ` @${login}` : ''}`;
 }
 
 function getRegExp(str = '', commit = '') {
