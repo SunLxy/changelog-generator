@@ -121,16 +121,16 @@ async function run() {
 
       for (const data of commits.data.commits) {
         const message = data.commit.message.split('\n\n')[0];
-        core.startGroup(`测试：${JSON.stringify(data.author, null, 2)}`);
+        core.startGroup(`测试：${JSON.stringify(data, null, 2)}`);
         core.endGroup();
-        core.startGroup(`Commit: \x1b[34m${message}\x1b[0m \x1b[34m${data.commit.author.name}(${data.author.login})\x1b[0m ${data.sha}`);
-        core.info(`${JSON.stringify(data, null, 2)}`);
-        core.endGroup();
+        // core.startGroup(`Commit: \x1b[34m${message}\x1b[0m \x1b[34m${data.commit.author.name}(${data.author.login})\x1b[0m ${data.sha}`);
+        // core.info(`${JSON.stringify(data, null, 2)}`);
+        // core.endGroup();
         commitLog.push(formatStringCommit(message, `${owner}/${repo}`, {
           originalMarkdown,
           regExp, shortHash: data.sha.slice(0, 7), filterAuthor, hash: data.sha,
           author: data.commit.author.name,
-          login: data.author.login,
+          // login: data.author.login,
         }));
       }
 
