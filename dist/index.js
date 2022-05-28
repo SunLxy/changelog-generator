@@ -6434,11 +6434,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "paginateRest": () => (/* binding */ paginateRest),
 /* harmony export */   "paginatingEndpoints": () => (/* binding */ paginatingEndpoints)
 /* harmony export */ });
-/* harmony import */ var _Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4942);
-/* harmony import */ var _Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5861);
-/* harmony import */ var _Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1413);
-/* harmony import */ var _Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7757);
-/* harmony import */ var _Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4942);
+/* harmony import */ var _Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5861);
+/* harmony import */ var _Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1413);
+/* harmony import */ var _Users_lusun_Study_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7757);
+/* harmony import */ var _Users_lusun_Study_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0__);
 
 
 
@@ -6464,7 +6464,7 @@ var VERSION = "2.17.0";
 function normalizePaginatedListResponse(response) {
   // endpoints can respond with 204 if repository is empty
   if (!response.data) {
-    return (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)((0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)({}, response), {}, {
+    return (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)((0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)({}, response), {}, {
       data: []
     });
   }
@@ -6501,12 +6501,12 @@ function iterator(octokit, route, parameters) {
   var method = options.method;
   var headers = options.headers;
   var url = options.url;
-  return (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({}, Symbol.asyncIterator, function () {
+  return (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({}, Symbol.asyncIterator, function () {
     return {
       next: function next() {
-        return (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z)( /*#__PURE__*/_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        return (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z)( /*#__PURE__*/_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
           var response, normalizedResponse;
-          return _Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          return _Users_lusun_Study_changelog_generator_node_modules_babel_runtime_regenerator_index_js__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
@@ -6643,9 +6643,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "legacyRestEndpointMethods": () => (/* binding */ legacyRestEndpointMethods),
 /* harmony export */   "restEndpointMethods": () => (/* binding */ restEndpointMethods)
 /* harmony export */ });
-/* harmony import */ var _Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1413);
-/* harmony import */ var _Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4942);
-/* harmony import */ var _Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(885);
+/* harmony import */ var _Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1413);
+/* harmony import */ var _Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4942);
+/* harmony import */ var _Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(885);
 
 
 
@@ -7521,22 +7521,22 @@ function endpointsToMethods(octokit, endpointsMap) {
   var newMethods = {};
 
   for (var _i = 0, _Object$entries = Object.entries(endpointsMap); _i < _Object$entries.length; _i++) {
-    var _Object$entries$_i = (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(_Object$entries[_i], 2),
+    var _Object$entries$_i = (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(_Object$entries[_i], 2),
         scope = _Object$entries$_i[0],
         endpoints = _Object$entries$_i[1];
 
     for (var _i2 = 0, _Object$entries2 = Object.entries(endpoints); _i2 < _Object$entries2.length; _i2++) {
-      var _Object$entries2$_i = (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(_Object$entries2[_i2], 2),
+      var _Object$entries2$_i = (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(_Object$entries2[_i2], 2),
           methodName = _Object$entries2$_i[0],
           endpoint = _Object$entries2$_i[1];
 
-      var _endpoint = (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(endpoint, 3),
+      var _endpoint = (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(endpoint, 3),
           route = _endpoint[0],
           defaults = _endpoint[1],
           decorations = _endpoint[2];
 
       var _route$split = route.split(/ /),
-          _route$split2 = (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(_route$split, 2),
+          _route$split2 = (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(_route$split, 2),
           method = _route$split2[0],
           url = _route$split2[1];
 
@@ -7575,14 +7575,14 @@ function decorate(octokit, scope, methodName, defaults, decorations) {
 
 
     if (decorations.mapToData) {
-      options = Object.assign({}, options, (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)({
+      options = Object.assign({}, options, (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)({
         data: options[decorations.mapToData]
       }, decorations.mapToData, undefined));
       return requestWithDefaults(options);
     }
 
     if (decorations.renamed) {
-      var _decorations$renamed = (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(decorations.renamed, 2),
+      var _decorations$renamed = (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(decorations.renamed, 2),
           newScope = _decorations$renamed[0],
           newMethodName = _decorations$renamed[1];
 
@@ -7600,7 +7600,7 @@ function decorate(octokit, scope, methodName, defaults, decorations) {
       var _options = (_requestWithDefaults$2 = requestWithDefaults.endpoint).merge.apply(_requestWithDefaults$2, arguments);
 
       for (var _i3 = 0, _Object$entries3 = Object.entries(decorations.renamedParameters); _i3 < _Object$entries3.length; _i3++) {
-        var _Object$entries3$_i = (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(_Object$entries3[_i3], 2),
+        var _Object$entries3$_i = (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)(_Object$entries3[_i3], 2),
             name = _Object$entries3$_i[0],
             alias = _Object$entries3$_i[1];
 
@@ -7636,7 +7636,7 @@ restEndpointMethods.VERSION = VERSION;
 
 function legacyRestEndpointMethods(octokit) {
   var api = endpointsToMethods(octokit, Endpoints);
-  return (0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)((0,_Users_wangchujiang_git_project_actions_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({}, api), {}, {
+  return (0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)((0,_Users_lusun_Study_changelog_generator_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({}, api), {}, {
     rest: api
   });
 }
@@ -11762,17 +11762,19 @@ function _run() {
               for (_iterator.s(); !(_step = _iterator.n()).done;) {
                 data = _step.value;
                 message = data.commit.message.split('\n\n')[0];
-                core.startGroup("Commit: \x1B[34m".concat(message, "\x1B[0m \x1B[34m").concat(data.commit.author.name, "(").concat(data.author.login, ")\x1B[0m ").concat(data.sha));
-                core.info("".concat(JSON.stringify(data, null, 2)));
-                core.endGroup();
+                core.startGroup("\u6D4B\u8BD5\uFF1A".concat(JSON.stringify(data, null, 2)));
+                core.endGroup(); // core.startGroup(`Commit: \x1b[34m${message}\x1b[0m \x1b[34m${data.commit.author.name}(${data.author.login})\x1b[0m ${data.sha}`);
+                // core.info(`${JSON.stringify(data, null, 2)}`);
+                // core.endGroup();
+
                 commitLog.push(formatStringCommit(message, "".concat(owner, "/").concat(repo), {
                   originalMarkdown: originalMarkdown,
                   regExp: regExp,
                   shortHash: data.sha.slice(0, 7),
                   filterAuthor: filterAuthor,
                   hash: data.sha,
-                  author: data.commit.author.name,
-                  login: data.author.login
+                  author: data.commit.author.name // login: data.author.login,
+
                 }));
               }
             } catch (err) {
